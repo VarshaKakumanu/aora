@@ -6,6 +6,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.container}>Home</Text>
       <Link style={styles.container} href='/Login'>login</Link>
+      <Link style={styles.container} href='/Login/createPost'>createPost</Link>
     </View>
   );
 }
@@ -15,6 +16,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    color:'white'
+    color:'black'
   },
 });
