@@ -5,6 +5,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.container}>Home</Text>
+      <View className="w-10 h-10 bg-blue-500" />
       <Link style={styles.container} href='/Login'>login</Link>
       <Link style={styles.container} href='/Login/createPost'>createPost</Link>
     </View>
